@@ -3,7 +3,7 @@ var canvas = document.getElementById("myCanvas");
 var context = canvas.getContext("2d");
 var img = new Image();
 
-img.src = "img/nethawk.png";
+img.src = "img/nethawk-mini.png";
 
 img.onload = function(){
 	var pattern = context.createPattern(img, "repeat");
