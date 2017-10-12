@@ -107,8 +107,9 @@
 				effect.setSize( width, height );
 				container.appendChild( effect.domElement );
 
-				stats = new Stats();
-				container.appendChild( stats.dom );
+				// remove the stats box in upper left corner
+				//stats = new Stats();
+				//container.appendChild( stats.dom );
 
 				//
 
@@ -132,9 +133,9 @@
 
 				requestAnimationFrame( animate );
 
-				stats.begin();
+				//stats.begin();
 				render();
-				stats.end();
+				//stats.end();
 
 			}
 
