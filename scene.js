@@ -1,4 +1,7 @@
-var canvas = document.getElementById("canvas");
+console.log("here!");
+var canvas = document.getElementById("myCanvas");
+console.log(canvas);
+
 var context = canvas.getContext("2d");
 var img = new Image();
 
