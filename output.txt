@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>modem love</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-
-<p>
                      _                  _                
  _ __ ___   ___   __| | ___ _ __ ___   | | _____   _____ 
 | '_ ` _ \ / _ \ / _` |/ _ \ '_ ` _ \  | |/ _ \ \ / / _ \
@@ -21,15 +9,4 @@
 | | | | || |_  |  \| |/ _ \ \ / /   __) | | | | |  / / 
 | |_| |__   _| | |\  | (_) \ V /   / __/| |_| | | / /  
  \___/   |_|   |_| \_|\___/ \_/   |_____|\___/|_|/_/   
-                                                      
-</p> 
-
-
-
-	<canvas id="myCanvas" width="1366" height="768"></canvas>
-	<script type="text/javascript" src="scene.js"></script>
-</body>
-
-</html>
-
-
+                                                       
