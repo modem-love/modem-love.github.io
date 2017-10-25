@@ -20,3 +20,16 @@ Username: dance@modem.love
 Password: NA
 
 Right now, Stephen has the password. He will change this soon.
+
+# Display name and Gravatar
+
+Our IMAP full name is Modern Love.
+
+The Gravatar is found at:
+
+https://en.gravatar.com
+
+Username: modemlove
+Password: NA
+
+Same as the Gandi mailbox. Stephen has it.
