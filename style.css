@@ -6,9 +6,13 @@ div.gallery:hover {
   border: 1px solid #777;
 }
 
+/* All the import aspect normalizing is here */
+/* Really need to crop David's weird layout one */
 div.gallery img {
+  height: 400px;
   width: 100%;
-  height: auto;
+  object-fit: cover; 
+  object-position: center top;
 }
 
 div.desc {
@@ -21,7 +25,7 @@ div.desc {
 }
 
 div.next_event {
-  border: 3px solid LawnGreen;
+  /*border: 3px solid LawnGreen;*/
   background: LawnGreen;
 }
 
