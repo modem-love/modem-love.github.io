@@ -25,6 +25,12 @@ div.next_event {
   background: LawnGreen;
 }
 
+.announce {
+  display: inline;
+  border: 3px solid LawnGreen;
+  background: LawnGreen;
+}
+
 .responsive {
   padding: 0 6px;
   float: left;
