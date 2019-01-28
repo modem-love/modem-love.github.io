@@ -20,6 +20,11 @@ div.desc {
   box-sizing: border-box;
 }
 
+div.next_event {
+  border: 3px solid LawnGreen;
+  background: LawnGreen;
+}
+
 .responsive {
   padding: 0 6px;
   float: left;
