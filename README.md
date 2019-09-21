@@ -1,35 +1,13 @@
-# modem-love.github.io
-High baud, tight kerning, groove.
+# modem love
 
-# Generating FIGLET-style text
+The electronic alter-ego and record label for Modern Love, and inclusive dance party based in New Haven, CT, is `modem love`.
 
-Use toilet for its ability to output HTML divs:
+This README explains the various accounts and services used to build the www.modem.love website and maintain our New Haven mailing list.
 
-> toilet -f standard < input.txt --html > output.txt
+This repo is private and limited to org team members. Passwords are stored in a shared Google Drive account.
 
-Note that each line of text is its own div.
+The main accounts are:
 
-# Sending email
+Gandi Webmail (Username: dance@modem.love): https://sogo3.gandi.net/SOGo/
+Mailchimp (Username: modemlove): 
 
-Through Gandi, our main mailbox is dance@modem.love. To check it or send email,
-use the web client. This allows multiple people to access the account:
-
-https://sogo3.gandi.net/SOGo/
-
-Username: dance@modem.love
-Password: NA
-
-Right now, Stephen has the password. He will change this soon.
-
-# Display name and Gravatar
-
-Our IMAP full name is Modern Love.
-
-The Gravatar is found at:
-
-https://en.gravatar.com
-
-Username: modemlove
-Password: NA
-
-Same as the Gandi mailbox. Stephen has it.
