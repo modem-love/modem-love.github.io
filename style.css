@@ -40,7 +40,8 @@ div.next_event {
   width: 12.49999%;/*24.99999%;*/
 }
 
-@media only screen and (max-width: 700px) {
+/* figure out what is iphone width -- was 700 */
+@media only screen and (max-width: 800px) {
   .responsive {
     width: 24.999999%; /* was 49.999 */
     margin: 6px 0;
