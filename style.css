@@ -43,7 +43,7 @@ div.next_event {
 /* figure out what is iphone width -- was 700 */
 @media only screen and (max-width: 1125px) {
   .responsive {
-    width: 24.99999%; /* was 49.999 */
+    width: 16.66666%; /* was 49.999 */
     margin: 6px 0;
   }
 }
