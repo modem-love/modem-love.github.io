@@ -9,8 +9,8 @@ div.gallery:hover {
 /* All the import aspect normalizing is here */
 /* Really need to crop David's weird layout one */
 div.gallery img {
-  height: 250px;
   width: 100%;
+  height: 250px;
   object-fit: cover; 
   object-position: center top;
 }
