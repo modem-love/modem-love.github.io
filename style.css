@@ -9,7 +9,7 @@ div.gallery:hover {
 /* All the import aspect normalizing is here */
 /* Really need to crop David's weird layout one */
 div.gallery img {
-  height: 480px;
+  height: 250px;
   width: 100%;
   object-fit: cover; 
   object-position: center top;
@@ -37,12 +37,12 @@ div.next_event {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 12.499999%;/*24.99999%;*/
 }
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 24.999999%; /* was 49.999 */
     margin: 6px 0;
   }
 }
