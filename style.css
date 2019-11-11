@@ -1,6 +1,9 @@
+div.row {
+  display: flex;
+  flex-direction: row;
+}
+
 div.header-column {
-  float: left;
-  width: 33.33%;
   text-align: center;
 }
 
