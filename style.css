@@ -1,3 +1,19 @@
+div.header-column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* stuff above this added to demo the logos */
+
 div.gallery {
   border: 1px solid #ccc;
 }
