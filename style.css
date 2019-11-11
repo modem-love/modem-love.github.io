@@ -1,6 +1,7 @@
 .wrap {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   /* background-image: linear-gradient(to right, red , yellow); */
 }
 
