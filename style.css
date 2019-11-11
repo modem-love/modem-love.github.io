@@ -1,12 +1,17 @@
 .wrap {
   display: flex;
   justify-content: space-between;
+  /* background-image: linear-gradient(to right, red , yellow); */
 }
 
 .wrap img {
   padding: 10px 10px 10px 10px;
-  width: 300px;
+  width: 250px;
   height: auto;
+}
+
+.wrap-text {
+  padding: 10px 10px 10px 10px;
 }
 
 /* stuff above this added to demo the logos */
