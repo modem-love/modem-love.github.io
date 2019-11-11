@@ -1,20 +1,13 @@
-div.row {
+.wrap {
   display: flex;
-  flex-direction: row;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
-div.header-column {
-  text-align: center;
+.wrap img {
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: auto;
 }
-
-/* Clear floats after the columns */
-div.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 /* stuff above this added to demo the logos */
 
