@@ -11,3 +11,6 @@ The main accounts are:
 Gandi Webmail (Username: dance@modem.love): https://sogo3.gandi.net/SOGo/
 Mailchimp (Username: modemlove): 
 
+For styling our logo in the browser:
+
+https://codepen.io/sosuke/pen/Pjoqqp
