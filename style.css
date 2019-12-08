@@ -1,30 +1,63 @@
-/* Style the typefaces in the body */
+/* 
+To convert SVG images from black to any color with css-filter:
+
+https://codepen.io/sosuke/pen/Pjoqqp
+*/
+
+
+/* GLOBAL STYLES for the BODY */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* Style the header navbar */
-.wrap {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background-image: linear-gradient(to right, pink, white);
+
+/* CDN IMPORTED font-awesome styles for social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px 2px;
+  border: 1px solid #ccc;
 }
 
-.wrap img {
-  /* padding: 10px 10px 10px 10px; */
-  width: 250px;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  color: #3B5998;
+}
+
+.fa-instagram {
+  /*background: #125688;*/
+  color: #125688;
+}
+
+
+/* HEADER and FOOTER: flex-box */
+nav.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, pink, white);
+  margin: 6px 0;
+}
+
+nav.menu img {
+  width: 200px;
   height: auto;
 }
 
-.wrap-text {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 15px;
+nav.menu img:hover {
+    opacity: 0.7;
 }
 
-/* stuff above this added to demo the logos */
 
+/* GALLERY CARDS for POSTERS */
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -34,12 +67,17 @@ div.gallery:hover {
 }
 
 /* All the import aspect normalizing is here */
-/* Really need to crop David's weird layout one */
 div.gallery img {
   width: 100%;
   height: 250px;
   object-fit: cover; 
   object-position: center top;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 div.desc {
@@ -51,23 +89,14 @@ div.desc {
   box-sizing: border-box;
 }
 
-div.next_event {
-  /*border: 3px solid LawnGreen;*/
-  background: LawnGreen;
-}
-
-.announce {
-  display: inline;
-  background: LawnGreen;
-}
-
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 12.49999%;/*24.99999%;*/
+  width: 12.49999%; /* 8 tiles per row on full screen */
 }
 
-/* figure out what is iphone width -- was 700 */
+
+/* CHECK for MOBILE vs. DESKTOP */
 @media only screen and (max-width: 1125px) {
   .responsive {
     width: 16.66666%; /* was 49.999 */
@@ -81,8 +110,3 @@ div.next_event {
   }
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
