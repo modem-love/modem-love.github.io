@@ -89,6 +89,11 @@ div.desc {
   box-sizing: border-box;
 }
 
+/* for upcoming events */
+.upcoming {
+  background-color: lawngreen;
+}
+
 .responsive {
   padding: 0 6px;
   float: left;
