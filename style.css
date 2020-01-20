@@ -20,7 +20,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
   margin: 5px 2px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
 }
 
 .fa:hover {
@@ -29,12 +29,20 @@ body {
 
 .fa-facebook {
   /*background: #3B5998;*/
-  color: #3B5998;
+  /*color: #3B5998;*/
+  color: black;
 }
 
 .fa-instagram {
   /*background: #125688;*/
-  color: #125688;
+  /*color: #125688;*/
+  color: black;
+}
+
+.fa-instagram {
+  /*background: #125688;*/
+  /*color: #125688;*/
+  color: black;
 }
 
 
