@@ -14,3 +14,7 @@ Mailchimp (Username: modemlove):
 For styling our logo in the browser:
 
 https://codepen.io/sosuke/pen/Pjoqqp
+
+For the cards for mixes:
+
+https://codepen.io/mcraiganthony/pen/NxGxqm
