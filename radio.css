@@ -10,6 +10,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+html {
+  background-color: #f0f0f0;
+  background-image: url(img/disco.jpg);
+  background-size: cover;
+}
 
 /* CDN IMPORTED font-awesome styles for social media icons */
 .fa {
@@ -72,9 +77,11 @@ nav.menu img:hover {
 }
 
 
-/* GALLERY CARDS for POSTERS */
+/* GALLERY CARDS for MIXES */
 div.gallery {
-  border: 1px solid #ccc;
+  height: 400px;
+  overflow: hidden;
+  margin: 10px 0;
 }
 
 div.gallery:hover {
@@ -89,6 +96,10 @@ div.gallery img {
   object-position: center top;
 }
 
+.gallery:hover {
+  overflow-y: scroll;
+}
+
 .clearfix:after {
   content: "";
   display: table;
@@ -99,7 +110,7 @@ div.desc {
   padding: 15px;
   text-align: center;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.6;
   font-size: smaller;
 }
 
@@ -115,14 +126,14 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 12.49999%; /* 8 tiles per row on full screen */
+  width: 16.66666%; /* 6 tiles per row on full screen */
 }
 
 
 /* CHECK for MOBILE vs. DESKTOP */
 @media only screen and (max-width: 1125px) {
   .responsive {
-    width: 16.66666%; /* was 49.999 */
+    width: 33.33333%; /* was 49.999 */
     margin: 6px 0;
   }
 }
