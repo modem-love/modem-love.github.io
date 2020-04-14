@@ -4,6 +4,18 @@ To convert SVG images from black to any color with css-filter:
 https://codepen.io/sosuke/pen/Pjoqqp
 */
 
+/* test of .fixed element for upcoming events: http://jsfiddle.net/cqztf9kc/ */
+/* TODO: add JS button so that users can close out of it */
+.fixed {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 7%;
+  position: fixed;
+  z-index: 1;
+  border-radius: 5px
+}
+
 
 /* GLOBAL STYLES for the BODY */
 body {
