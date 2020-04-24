@@ -46,6 +46,23 @@
 </div>
 -->
 
+<!-- Add a placeholder for the Twitch embed -->
+<!-- https://dev.twitch.tv/docs/embed/everything -->
+<div id="twitch-embed" class="fixed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+<script type="text/javascript">
+  new Twitch.Embed("twitch-embed", {
+    width: 854,
+    height: 480,
+    channel: "modemlove",
+    theme: 'dark',
+  });
+</script>
+
 <!-- Leave this at the top! -->
 <div class="responsive">
   <div class="gallery">
@@ -63,6 +80,34 @@
 
 
 <!-- START OF MIXES -->
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.mixcloud.com/modemlove/wacomo-ante-test-modem-love-radio-series-29/">
+      <img src="img/mixes/2020_04_22_Wacomo.png" alt="22 April 2020" style="opacity: 0.5">
+    </a>
+    <div class="place_date">
+      <span>028</span>
+      <span style="background-color: olivedrab">London, UK</span>
+      <span>04/22/20</span>
+    </div>
+    <div class="desc">Wacomo ups the <a href="https://www.mixcloud.com/modemlove/wacomo-ante-test-modem-love-radio-series-29/">ANTE TEST</a>. Cramming starts now.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.mixcloud.com/modemlove/dj-jonas-b-modem-love-radio-series-28/">
+      <img src="img/mixes/2020_04_21_JonasB.png" alt="21 April 2020" style="opacity: 0.5">
+    </a>
+    <div class="place_date">
+      <span>027</span>
+      <span style="background-color: deeppink">New Haven, CT</span>
+      <span>04/21/20</span>
+    </div>
+    <div class="desc">Saw the tracklist and fell in love. Jonas B spins emotive, haunting techno from the dystopian rooftop. Like <a href="https://www.mixcloud.com/modemlove/dj-jonas-b-modem-love-radio-series-28/">tears in the rain</a>.</div>
+  </div>
+</div>
+
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="https://www.mixcloud.com/modemlove/riles-frack-music-for-bicycles-modem-love-radio-series-026/">
