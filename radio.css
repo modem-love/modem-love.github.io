@@ -16,6 +16,13 @@ https://codepen.io/sosuke/pen/Pjoqqp
   border-radius: 5px
 }
 
+/* TODO: don't show this on mobile */
+@media all and (max-width: 600px) {
+  div#twitch-embed.fixed {
+    display: none;
+  }
+}
+
 
 /* GLOBAL STYLES for the BODY */
 body {
