@@ -108,12 +108,13 @@ div.gallery {
 
 div.gallery:hover {
   border: 1px solid #777;
+  overflow-y: scroll;
 }
 
 .place_date {
   padding: 10px;
-  text-align: left;
-  background-color: grey;
+  text-align: center;
+  background: linear-gradient(to right, darkgrey, grey);
   color: white;
   font-size: smaller;
   border-top-left-radius: 10px;
@@ -127,10 +128,6 @@ div.gallery img {
   object-position: center top;
 }
 
-.gallery:hover {
-  overflow-y: scroll;
-}
-
 .clearfix:after {
   content: "";
   display: table;
@@ -139,7 +136,7 @@ div.gallery img {
 
 div.desc {
   padding: 10px;
-  text-align: center;
+  text-align: left;
   background-color: white;
   opacity: 0.7;
   font-size: smaller;
