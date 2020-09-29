@@ -15,3 +15,5 @@ For styling our logo in the browser:
 
 https://codepen.io/sosuke/pen/Pjoqqp
 
+Currently working with Lucky House Mfg in Somerville on hoodies.
+
